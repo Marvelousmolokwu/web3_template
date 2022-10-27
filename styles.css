@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px 70px 50px 20px;
+  overflow-x: hidden;
+  background-color: hsl(36, 100%, 99%);
+  font-weight: 500;
+}
+p {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+}
+
+.navbar {
+  background-color: hsl(36, 100%, 99%);
+}
+h1 {
+  font-weight: 1000;
+}
+@media screen and (min-width: 375px) {
+  .first-section img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  button {
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    padding: 15px 10px;
+    width: 150px;
+    border: transparent;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 5px;
+    font-weight: 500;
+  }
+  .side-bar {
+    background-color: rgb(8, 4, 22);
+    margin-top: 50px;
+    color: white;
+    padding: 30px;
+    width: 350px;
+  }
+  .side-bar h2 {
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+  }
+  .side-bar h4 {
+    color: white;
+    font-weight: 700;
+  }
+  .side-bar p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .inner-bar {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+  .inner-bar2 {
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+  }
+  .inner-bar3 {
+    margin-top: 10px;
+  }
+  .layout {
+    margin-top: 30px;
+  }
+  .topics0 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .topics-img img {
+    width: 100px;
+    height: 120px;
+  }
+  .topics1 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  .topics2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  h3 {
+    color: rgb(206, 201, 201);
+  }
+}
+@media screen and (min-width: 1240px) {
+  main {
+    padding: 50px 80px;
+  }
+  .section {
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    gap: 10px;
+  }
+  .first-section {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  .second-section {
+    grid-column: 2/3;
+  }
+  .first-section img {
+    width: 720px;
+    height: 300px;
+  }
+  .first-img {
+    grid-column: 1/8;
+  }
+  .heading {
+    grid-column: 1/4;
+    grid-row: 2;
+  }
+  .write-up {
+    grid-column: 5/8;
+    grid-row: 2;
+    width: 370px;
+  }
+
+  .layout {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: (2, 1fr);
+  }
+  .layout-1 {
+    display: grid;
+    grid-template-columns: (7, 1fr);
+  }
+  .layout-2 {
+    grid-column: 2/3;
+    width: 320px;
+  }
+  .topics0 {
+    grid-column: 1/4;
+  }
+  .topics1 {
+    grid-column: 5/8;
+  }
+  .side-bar {
+    margin-top: 0;
+    width: 320px;
+  }
+}
