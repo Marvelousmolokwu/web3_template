@@ -28,17 +28,6 @@ h1 {
     margin-bottom: 20px;
   }
   button {
-    background-color: hsl(36, 100%, 99%);
-    color: white;
-    padding: 15px 10px;
-    width: 150px;
-    border: transparent;
-    text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 5px;
-    font-weight: 500;
-  }
-  .btn {
     background-color: hsl(5, 85%, 63%);
     color: white;
     padding: 15px 10px;
@@ -49,6 +38,7 @@ h1 {
     letter-spacing: 5px;
     font-weight: 500;
   }
+
   .side-bar {
     background-color: rgb(8, 4, 22);
     margin-top: 50px;
