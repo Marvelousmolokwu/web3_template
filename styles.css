@@ -27,7 +27,7 @@ h1 {
     height: 350px;
     margin-bottom: 20px;
   }
-  button {
+  .btn1 {
     background-color: hsl(5, 85%, 63%);
     color: white;
     padding: 15px 10px;
