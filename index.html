@@ -14,110 +14,175 @@
 
     <title>Frontend Mentor | News homepage</title>
 
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  </head>
+
   <body>
     <main>
-    <nav class="navbar  navbar-expand-lg fixed-top ">
-  <div class="container">
-    <a class="navbar-brand" href="#"><img src="assets/images/logo.svg"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <div>
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#"
+              ><img src="assets/images/logo.svg"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <a class="navbar-brand" href="#"
+                  ><img src="assets/images/logo.svg"
+                /></a>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">popular</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">training</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">categories</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">popular</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">training</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">categories</a>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-  </div>
-</nav>
-<section class="section">
-<section class="first-section">
-  <div class="first-img">
-<img src="assets/images/image-web-3-desktop.jpg" alt="main-pic" >
-</div><div class="heading">
-    <h1>The Bright Future of Web 3.0?</h1></div>
-<div class="write-up">
-    <p>
-      We dive into the next evolution of the web that claims to put the power of
-      the platforms back into the hands of the people. But is it really
-      fulfilling its promise?
-    </p>
+      <section class="section-1 container">
+        <div class="first-section">
+          <div class="first-img">
+            <img src="assets/images/image-web-3-desktop.jpg" alt="main-pic" />
+          </div>
+          <div class="post-blog">
+            <div class="heading">
+              <h1>The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="write-up">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
 
-    <button class="btn1">Read more</button></div>
-</section>
-<section class="second-section">
-    <div class="side-bar">
-      <div class="inner-bar">
-        <h2>New</h2>
+              <button class="btn1">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="second-section container">
+          <h2>New</h2>
+          <div class="side-bar">
+            <div class="inner-bar">
+              <h4>Hydrogen VS Electric Cars</h4>
+              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+              <hr />
+            </div>
+            <div class="inner-bar2">
+              <h4>The Downsides of AI Artistry</h4>
+              <p>
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+              <hr />
+            </div>
+            <div class="inner-bar3">
+              <h4>Is VC Funding Drying Up?</h4>
+              <p>
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="third-section container">
+        <div class="layout">
+          <div class="topics0">
+            <div class="topics-img">
+              <img
+                src="assets/images/image-retro-pcs.jpg"
+                width="170px"
+                height="120px"
+                alt="topic-img"
+              />
+            </div>
+            <div class="topics-side">
+              <h3>01</h3>
+              <h5>Reviving Retro PCs</h5>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
 
-        <h4>Hydrogen VS Electric Cars</h4>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-      </div>
-      <div class="inner-bar2">
-        <h4>The Downsides of AI Artistry</h4>
-        <p>
-          What are the possible adverse effects of on-demand AI image
-          generation?
-        </p>
-      </div>
-      <div class="inner-bar3">
-        <h4>Is VC Funding Drying Up?</h4>
-        <p>
-          Private funding by VC firms is down 50% YOY. We take a look at what
-          that means.
-        </p>
-      </div>
-    </div></section></section>
-    
-    <div class="layout">
-      <div class="layout-1">
-      <div class="topics0">
-         <div class="topics-img"> <img src="assets/images/image-retro-pcs.jpg" alt="topic-img"></div>
-      <div class="topics-side"><h3>01</h3>
-      <h5>Reviving Retro PCs</h5>
-      <p>What happens when old PCs are given modern upgrades?</p></div></div>
-     
-      
-<div class="topics1">
-<div class="topics-img"> <img src="assets/images/image-top-laptops.jpg" alt="topic-img"></div>
-<div class="topics-side"><h3>02</h3>
-      <h5>Top 10 Laptops of 2022</h5>
-      <p>Our best picks for various needs and budgets.</p></div></div></div>
-      <div class="layout-2">
-<div class="topics2">
-<div class="topics-img"> <img src="assets/images/image-gaming-growth.jpg" alt="topic-pic"></div>
-<div class="topics-side"><h3>03</h3>
-      <h5>The Growth of Gaming</h5>
-      <p>How the pandemic has sparked fresh opportunities.</p></div>
-      
-    </div></div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </main>
+          <div class="topics1">
+            <div class="topics-img">
+              <img
+                src="assets/images/image-top-laptops.jpg"
+                width="150px"
+                height="120px"
+                alt="topic-img"
+              />
+            </div>
+            <div class="topics-side">
+              <h3>02</h3>
+              <h5>Top 10 Laptops of 2022</h5>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
+
+          <div class="topics2">
+            <div class="topics-img">
+              <img
+                src="assets/images/image-gaming-growth.jpg"
+                width="170px"
+                height="120px"
+                alt="topic-pic"
+              />
+            </div>
+            <div class="topics-side">
+              <h3>03</h3>
+              <h5>The Growth of Gaming</h5>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+      ></script>
+    </main>
   </body>
 </html>
